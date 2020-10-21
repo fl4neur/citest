@@ -1,0 +1,45 @@
+name: showtime
+
+on:
+  push:
+  
+jobs:
+  beetlejuice1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: beetlejuice
+      run: echo "BEETLEJUICE!"
+    - name: beetlejuice
+      run: echo "BEETLEJUICE!"
+    - name: beetlejuice
+      run: echo "BEETLEJUICE!"
+  beetlejuice2:
+    runs-on: ubuntu-latest
+    needs: beetlejuice1
+    steps:
+    - name: show
+      run: echo "https://25yearslatersite.com/wp-content/uploads/2020/03/Beetlejuice-Movie-Facts-Trivia-List.jpg"
+    - name: beetlejuice
+      run: echo "BEETLEJUICE!"
+    - name: beetlejuice
+      run: echo "BEETLEJUICE!"
+    - name: beetlejuice
+      run: echo "BEETLEJUICE!"
+  beetlejuice3:
+    runs-on: ubuntu-latest
+    needs: beetlejuice2
+    steps:
+    - name: show
+      run: echo "https://25yearslatersite.com/wp-content/uploads/2020/03/Beetlejuice-Movie-Facts-Trivia-List.jpg"
+    - name: beetlejuice
+      run: echo "BEETLEJUICE!"
+    - name: beetlejuice
+      run: echo "BEETLEJUICE!"
+    - name: beetlejuice
+      run: echo "BEETLEJUICE!"
+  beetlejuice:
+    runs-on: ubuntu-latest
+    needs: beetlejuice3
+    steps:
+    - name: show
+      run: echo "https://25yearslatersite.com/wp-content/uploads/2020/03/Beetlejuice-Movie-Facts-Trivia-List.jpg"
